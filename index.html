@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio de Daniel Lebrero: desarrollo de software, aplicaciones, DevOps, self-hosting y ciberseguridad aplicada.">
+  <meta name="author" content="Daniel Lebrero"><meta name="theme-color" content="#10130f">
+  <meta property="og:type" content="website"><meta property="og:title" content="Daniel Lebrero · Software Developer">
+  <meta property="og:description" content="Construyo software y también la infraestructura que lo mantiene vivo.">
+  <title>Daniel Lebrero · Software Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a><div class="noise" aria-hidden="true"></div>
+<header class="header" data-header>
+  <a class="brand" href="#inicio"><b>DL</b><span>Daniel Lebrero<small>Software Developer</small></span></a>
+  <nav class="nav" aria-label="Navegación"><a href="#proyectos">Proyectos</a><a href="#laboratorio">Laboratorio</a><a href="#aprendizaje">Aprendizaje</a><a href="#contacto">Contacto</a></nav>
+  <div class="actions"><button class="theme" data-theme aria-label="Cambiar tema">◐</button><button class="menu" data-menu aria-expanded="false" aria-label="Abrir menú"><i></i><i></i><i></i></button></div>
+  <nav class="mobile" data-mobile><a href="#proyectos">Proyectos</a><a href="#laboratorio">Laboratorio</a><a href="#aprendizaje">Aprendizaje</a><a href="#contacto">Contacto</a></nav>
+</header>
+<main id="main">
+<section class="hero shell" id="inicio">
+  <div class="hero-copy reveal">
+    <p class="eyebrow"><i></i> Desarrollo · DevOps · Seguridad</p>
+    <h1>Construyo software.<em>Y entiendo lo que ocurre debajo.</em></h1>
+    <p class="lead">Soy Daniel Lebrero. Diseño aplicaciones web y móviles, las despliego y convierto cada decisión técnica en una oportunidad para aprender.</p>
+    <div class="buttons"><a class="btn primary" href="#proyectos">Explorar proyectos ↘</a><a class="btn" href="https://github.com/DaniLebrero" target="_blank" rel="noreferrer">Ver GitHub ↗</a></div>
+    <ul class="notes"><li>Aplicaciones reales</li><li>Infraestructura propia</li><li>Seguridad por diseño</li></ul>
+  </div>
+  <div class="visual reveal">
+    <div class="portrait"><img src="assets/daniel-lebrero.jpg" width="460" height="460" alt="Daniel Lebrero"><span class="available"><i></i> Aprendiendo y construyendo</span><code class="c1">01 / BUILD</code><code class="c2">02 / SECURE</code><code class="c3">03 / OPERATE</code></div>
+  </div>
+  <div class="metrics reveal"><article><b>24</b><span>contenedores<br>gestionados</span></article><article><b>19</b><span>servicios<br>catalogados</span></article><article><b>13</b><span>casos<br>documentados</span></article><article><b>4</b><span>apps propias<br>destacadas</span></article></div>
+</section>
+<div class="ticker"><div>BUILD ◆ TEST ◆ SECURE ◆ DEPLOY ◆ LEARN ◆ BUILD ◆ TEST ◆ SECURE ◆ DEPLOY ◆ LEARN ◆</div></div>
+
+<section class="shell section" id="sobre-mi">
+  <header class="section-head reveal"><p>01 / Sobre mí</p><h2>No colecciono herramientas.<em>Construyo criterio.</em></h2></header>
+  <div class="about">
+    <div class="about-copy reveal"><p class="big">Me interesa el recorrido completo de una idea: convertirla en producto, proteger sus límites, desplegarla y observar cómo se comporta.</p><p>Una PWA me llevó a React Native. Una utilidad de consola me llevó a pensar en autenticación y SSRF. Un contenedor me llevó a diseñar redes, observabilidad y recuperación.</p><p>Mi objetivo no es que algo simplemente funcione. Es poder explicar por qué funciona, cómo falla y qué cambiaría en la siguiente iteración.</p></div>
+    <div class="principles"><article class="reveal"><b>01</b><div><h3>Construir</h3><p>Del problema al producto, con interfaces claras y decisiones mantenibles.</p></div></article><article class="reveal"><b>02</b><div><h3>Proteger</h3><p>Mínimo privilegio, límites explícitos y amenazas consideradas desde el diseño.</p></div></article><article class="reveal"><b>03</b><div><h3>Operar</h3><p>Despliegues reproducibles, métricas útiles y documentación recuperable.</p></div></article></div>
+  </div>
+</section>
+
+<section class="shell section" id="proyectos">
+  <header class="section-head reveal"><p>02 / Proyectos seleccionados</p><div><h2>Ideas convertidas<em>en sistemas reales.</em></h2><span>Cada proyecto empezó resolviendo una necesidad. El valor apareció al afrontar todo lo que rodea a la primera versión.</span></div></header>
+  <div class="projects">
+    <article class="project featured reveal"><div class="top"><small>01</small><mark>● Web + mobile</mark></div><div><label>Gestión educativa</label><h3>ClassControl</h3><p>PWA y aplicación nativa para gestionar alumnos, calendario, clases y cobros. La versión móvil comparte Supabase y RLS, pero replantea navegación, sesión y deep links.</p><ul><li>React</li><li>Expo</li><li>Supabase</li><li>SecureStore</li></ul></div><div class="phones" aria-hidden="true"><i></i><i></i><span></span></div><footer><small>Aprendizaje clave</small><b>Migrar a móvil no es traducir componentes: cambia el ciclo de vida completo.</b></footer></article>
+    <article class="project reveal"><div class="top"><small>02</small><mark>● Desplegado</mark></div><label>Backend seguro</label><h3>yt-dlp Web</h3><p>Interfaz multiusuario con Flask. Incorpora autenticación, CSRF, defensa SSRF y límites atómicos por cuenta, IP, concurrencia y disco.</p><div class="data"><b>512<small>MiB / archivo</small></b><b>5<small>GiB reservados</small></b></div><ul><li>Python</li><li>Flask</li><li>SQLite</li><li>AppSec</li></ul><footer><small>Aprendizaje clave</small><b>Al convertir una CLI en servicio web, los límites pasan a ser producto.</b></footer></article>
+    <article class="project reveal"><div class="top"><small>03</small><mark class="blue">● LAN / VPN</mark></div><label>Colaboración privada</label><h3>Codeshare Local</h3><p>Editor colaborativo en tiempo real sin analítica, CDN ni peticiones a terceros. Sincroniza contenido, presencia y cursores con WebSockets.</p><div class="signal" aria-hidden="true"><b>A</b><i></i><i></i><i></i><b>B</b></div><ul><li>Node.js</li><li>WebSockets</li><li>JSON</li><li>Nginx</li></ul><footer><small>Aprendizaje clave</small><b>Privacidad también es decidir no exponer un servicio.</b></footer></article>
+    <article class="project wide reveal"><div><div class="top"><small>04</small><mark class="orange">● Preproducción</mark></div><label>Producto y pagos</label><h3>Top &amp; Performance</h3><p>Landing para programas de entrenamiento y nutrición con pagos únicos o fraccionados. Stripe crea el checkout; los webhooks firmados mantienen la verdad del servidor.</p><ul><li>Python</li><li>Stripe</li><li>Docker</li><li>Webhooks</li></ul></div><div class="flow"><span><small>01</small>Checkout</span><i>→</i><span><small>02</small>Webhook</span><i>→</i><span><small>03</small>Activación</span></div><footer><small>Aprendizaje clave</small><b>Una pantalla de éxito no confirma un cobro. El evento firmado sí.</b></footer></article>
+    <article class="project wide dashboard reveal"><div><div class="top"><small>05</small><mark class="blue">● Solo lectura</mark></div><label>Herramienta interna</label><h3>Lebre Services</h3><p>Dashboard propio para consultar 19 servicios lógicos sin entregar a la aplicación control total sobre Docker.</p><ul><li>Python</li><li>Docker API</li><li>Socket Proxy</li></ul></div><div class="mock" aria-hidden="true"><header>● ● ●</header><section><i></i><i></i><i></i></section><p></p><p></p><p></p></div><footer><small>Aprendizaje clave</small><b>“Solo lo uso yo” no sustituye al mínimo privilegio.</b></footer></article>
+  </div>
+</section>
+
+<section class="lab section" id="laboratorio"><div class="shell">
+  <header class="section-head reveal"><p>03 / Laboratorio de sistemas</p><div><h2>Un servidor.<em>Muchas capas.</em></h2><span>Un entorno propio para practicar entrada, red, datos, seguridad, observabilidad y operación.</span></div></header>
+  <div class="architecture reveal">
+    <div class="node">Usuarios<small>LAN · VPN · WEB</small></div><i class="line"></i><div class="node accent">Nginx<small>HTTPS · PROXY · WEBSOCKETS</small></div><i class="line"></i>
+    <div class="nodes"><div class="node">Aplicaciones<small>WEB · MOBILE · TOOLS</small></div><div class="node">Datos<small>SQL · SQLITE · VOLUMES</small></div><div class="node">Plataforma<small>DOCKER · NETWORKS</small></div></div>
+    <footer><span>Wazuh<small>Seguridad</small></span><span>Grafana<small>Observabilidad</small></span><span>WireGuard + Pi-hole<small>Acceso privado y DNS</small></span></footer>
+  </div>
+  <div class="lab-grid">
+    <article class="reveal"><small>01</small><h3>Entrada controlada</h3><p>Nginx concentra HTTPS y mantiene los backends en localhost. Publicar también implica saber retirar.</p><b>Nginx · TLS · CA local</b></article>
+    <article class="reveal"><small>02</small><h3>Red privada</h3><p>WireGuard ofrece acceso remoto sin convertir cada panel administrativo en un servicio público.</p><b>WireGuard · Pi-hole · DNS</b></article>
+    <article class="reveal"><small>03</small><h3>Visibilidad</h3><p>Wazuh aporta eventos. Grafana y los exporters convierten síntomas en hipótesis comprobables.</p><b>Wazuh · Grafana · cAdvisor</b></article>
+    <article class="reveal"><small>04</small><h3>Datos propios</h3><p>Nextcloud y MariaDB convierten persistencia, backup y recuperación en responsabilidades concretas.</p><b>Nextcloud · MariaDB · Volumes</b></article>
+    <article class="reveal"><small>05</small><h3>Integración</h3><p>Siete componentes multimedia muestran que una solución existe cuando todo el flujo puede explicarse.</p><b>Jellyfin · Sonarr · Radarr</b></article>
+    <article class="quote reveal"><blockquote>“Running” no significa “saludable”.</blockquote><p>Operar bien empieza cuando el estado deja de ser binario.</p></article>
+  </div>
+</div></section>
+
+<section class="shell section" id="aprendizaje">
+  <header class="section-head reveal"><p>04 / Aprendizaje continuo</p><div><h2>Aprender, aplicar,<em>volver a medir.</em></h2><span>La formación se queda cuando encuentra un proyecto real sobre el que hacer preguntas.</span></div></header>
+  <div class="timeline">
+    <article class="reveal"><b>01</b><aside>Formación aplicada<small>NEXT DIGITAL × ETSII Sevilla</small></aside><div><h3>Diseñar software mantenible</h3><p>TDD, patrones de diseño, CI/CD y arquitectura hexagonal. De Red-Green-Refactor a pipelines con GitHub Actions y Docker.</p><ul><li>TDD</li><li>Design Patterns</li><li>CI/CD</li><li>Hexagonal</li></ul></div></article>
+    <article class="reveal"><b>02</b><aside>Práctica defensiva<small>BIG school · 3 días</small></aside><div><h3>Entender el ataque para construir mejor</h3><p>Hacking ético y práctica posterior en entornos controlados: metodología web, XSS, autenticación y análisis de impacto.</p><ul><li>Web Security</li><li>DockerLabs</li><li>XSS</li><li>2FA</li></ul></div></article>
+    <article class="reveal"><b>03</b><aside>Cloud<small>En preparación</small></aside><div><h3>Microsoft Azure Fundamentals</h3><p>Preparación activa del examen AZ-900 para reforzar fundamentos de nube, servicios, seguridad, gobierno y costes.</p><div class="progress"><span>Examen reservado</span><span>No certificado todavía</span></div></div></article>
+    <article class="reveal"><b>04</b><aside>Base académica<small>Universidad de Sevilla</small></aside><div><h3>Ingeniería Informática</h3><p>Contexto académico para conectar fundamentos, prácticas y TFG con problemas reales de desarrollo, arquitectura e infraestructura.</p></div></article>
+  </div>
+</section>
+
+<section class="shell stack section"><p class="index reveal">05 / Caja de herramientas</p><h2 class="reveal">Tecnología con contexto.</h2><div class="cloud reveal"><b>Docker</b><span>Python</span><em>React</em><span>Nginx</span><span>Supabase</span><b>JavaScript</b><span>React Native</span><span>SQLite</span><em>GitHub Actions</em><span>Linux</span><span>WebSockets</span><b>AppSec</b><span>Grafana</span><span>Wazuh</span><span>Stripe</span><span>WireGuard</span></div></section>
+
+<section class="contact" id="contacto"><div class="shell">
+  <div class="reveal"><p>06 / Contacto</p><h2>¿Construimos<em>algo que importe?</em></h2><span>Si quieres hablar de desarrollo, arquitectura, DevOps, seguridad o de alguno de estos proyectos, aquí me encontrarás.</span></div>
+  <nav class="reveal"><a href="https://github.com/DaniLebrero" target="_blank" rel="noreferrer"><span><small>Código y proyectos</small>GitHub</span>↗</a><a href="https://www.linkedin.com/in/daniellebrerocarcela/" target="_blank" rel="noreferrer"><span><small>Experiencia y aprendizaje</small>LinkedIn</span>↗</a></nav>
+</div></section>
+</main>
+<footer class="footer shell"><div><b>DL</b><span>Diseñado y construido por Daniel Lebrero.</span></div><span>© <i data-year></i> · Servido como código estático.</span><a href="#inicio">Volver arriba ↑</a></footer>
+</body></html>
