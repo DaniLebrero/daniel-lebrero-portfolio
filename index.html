@@ -2,69 +2,83 @@
 <html lang="es" data-theme="dark">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Portfolio de Daniel Lebrero: desarrollo de software, aplicaciones, DevOps, self-hosting y ciberseguridad aplicada.">
+  <meta name="description" content="Daniel Lebrero: sistemas, cloud y ciberseguridad aplicada. Proyectos web publicados, auditoría de seguridad y un homelab con infraestructura propia.">
   <meta name="author" content="Daniel Lebrero"><meta name="theme-color" content="#10130f">
-  <meta property="og:type" content="website"><meta property="og:title" content="Daniel Lebrero · Software Developer">
+  <meta property="og:type" content="website"><meta property="og:title" content="Daniel Lebrero · Sistemas, cloud y ciberseguridad">
   <meta property="og:description" content="Construyo software y también la infraestructura que lo mantiene vivo.">
-  <title>Daniel Lebrero · Software Developer</title>
+  <title>Daniel Lebrero · Sistemas, cloud y ciberseguridad</title>
+  <link rel="canonical" href="https://danilebrero.github.io/daniel-lebrero-portfolio/">
+  <meta property="og:url" content="https://danilebrero.github.io/daniel-lebrero-portfolio/">
+  <meta property="og:image" content="https://danilebrero.github.io/daniel-lebrero-portfolio/assets/daniel-lebrero.jpg">
+  <meta property="og:image:width" content="460"><meta property="og:image:height" content="460">
+  <meta property="og:image:alt" content="Logotipo de Lebre Cybersecurity, imagen de perfil de Daniel Lebrero">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Saltar al contenido</a><div class="noise" aria-hidden="true"></div>
 <header class="header" data-header>
-  <a class="brand" href="#inicio"><b>DL</b><span>Daniel Lebrero<small>Software Developer</small></span></a>
+  <a class="brand" href="#inicio"><b>DL</b><span>Daniel Lebrero<small>Sistemas · Cloud · Seguridad</small></span></a>
   <nav class="nav" aria-label="Navegación"><a href="#proyectos">Proyectos</a><a href="#laboratorio">Laboratorio</a><a href="#aprendizaje">Aprendizaje</a><a href="#certificaciones">Certificaciones</a><a href="#contacto">Contacto</a></nav>
   <div class="actions"><button class="theme" data-theme aria-label="Cambiar tema">◐</button><button class="menu" data-menu aria-expanded="false" aria-label="Abrir menú"><i></i><i></i><i></i></button></div>
-  <nav class="mobile" data-mobile><a href="#proyectos">Proyectos</a><a href="#laboratorio">Laboratorio</a><a href="#aprendizaje">Aprendizaje</a><a href="#certificaciones">Certificaciones</a><a href="#contacto">Contacto</a></nav>
+  <nav class="mobile" data-mobile aria-label="Navegación móvil"><a href="#proyectos">Proyectos</a><a href="#laboratorio">Laboratorio</a><a href="#aprendizaje">Aprendizaje</a><a href="#certificaciones">Certificaciones</a><a href="#contacto">Contacto</a></nav>
 </header>
 <main id="main">
 <section class="hero shell" id="inicio">
   <div class="hero-copy reveal">
-    <p class="eyebrow"><i></i> Desarrollo · DevOps · Seguridad</p>
+    <p class="eyebrow"><i></i> Sistemas · Cloud · Ciberseguridad</p>
     <h1>Construyo software.<em>Y entiendo lo que ocurre debajo.</em></h1>
-    <p class="lead">Soy Daniel Lebrero. Diseño aplicaciones web y móviles, las despliego y convierto cada decisión técnica en una oportunidad para aprender.</p>
+    <p class="lead">Soy Daniel Lebrero. Trabajo en soporte N1 y gestión de sistemas, desarrollo aplicaciones web y practico ciberseguridad en mi propio laboratorio.</p>
     <div class="buttons"><a class="btn primary" href="#proyectos">Explorar proyectos ↘</a><a class="btn" href="https://github.com/DaniLebrero" target="_blank" rel="noreferrer">Ver GitHub ↗</a></div>
     <ul class="notes"><li>Aplicaciones reales</li><li>Infraestructura propia</li><li>Seguridad por diseño</li></ul>
   </div>
   <div class="visual reveal">
-    <div class="portrait"><img src="assets/daniel-lebrero.jpg" width="460" height="460" alt="Daniel Lebrero"><span class="available"><i></i> Aprendiendo y construyendo</span><code class="c1">01 / BUILD</code><code class="c2">02 / SECURE</code><code class="c3">03 / OPERATE</code></div>
+    <div class="portrait"><img src="assets/daniel-lebrero.jpg" width="460" height="460" alt="Logotipo de Lebre Cybersecurity: una liebre sobre un escudo"><span class="available"><i></i> Aprendiendo y construyendo</span><code class="c1">01 / BUILD</code><code class="c2">02 / SECURE</code><code class="c3">03 / OPERATE</code></div>
   </div>
-  <div class="metrics reveal"><article><b>24</b><span>contenedores<br>gestionados</span></article><article><b>19</b><span>servicios<br>catalogados</span></article><article><b>4</b><span>apps propias<br>destacadas</span></article></div>
+  <div class="metrics reveal"><article><b>51</b><span>contenedores en ejecución<br>12 nov 2026</span></article><article><b>28</b><span>hallazgos documentados<br>en el TFM</span></article><article><b>AZ-900</b><span>Azure Fundamentals<br>aprobado</span></article></div>
 </section>
 <div class="ticker"><div>BUILD ◆ TEST ◆ SECURE ◆ DEPLOY ◆ LEARN ◆ BUILD ◆ TEST ◆ SECURE ◆ DEPLOY ◆ LEARN ◆</div></div>
 
 <section class="shell section" id="sobre-mi">
   <header class="section-head reveal"><p>01 / Sobre mí</p><h2>No colecciono herramientas.<em>Construyo criterio.</em></h2></header>
   <div class="about">
-    <div class="about-copy reveal"><p class="big">Me interesa el recorrido completo de una idea: convertirla en producto, proteger sus límites, desplegarla y observar cómo se comporta.</p><p>Una PWA me llevó a React Native. Una utilidad de consola me llevó a pensar en autenticación y SSRF. Un contenedor me llevó a diseñar redes, observabilidad y recuperación.</p><p>Mi objetivo no es que algo simplemente funcione. Es poder explicar por qué funciona, cómo falla y qué cambiaría en la siguiente iteración.</p></div>
+    <div class="about-copy reveal"><p class="big">Me interesa el recorrido completo de una idea: convertirla en producto, proteger sus límites, desplegarla y observar cómo se comporta.</p><p>Una web para un negocio me llevó del desarrollo al DNS y al SEO. Una utilidad de consola me llevó a pensar en autenticación y SSRF. Mi servidor me llevó a diseñar redes, observabilidad y recuperación.</p><p>Mi objetivo no es que algo simplemente funcione. Es poder explicar por qué funciona, cómo falla y qué cambiaría en la siguiente iteración.</p></div>
     <div class="principles"><article class="reveal"><b>01</b><div><h3>Construir</h3><p>Del problema al producto, con interfaces claras y decisiones mantenibles.</p></div></article><article class="reveal"><b>02</b><div><h3>Proteger</h3><p>Mínimo privilegio, límites explícitos y amenazas consideradas desde el diseño.</p></div></article><article class="reveal"><b>03</b><div><h3>Operar</h3><p>Despliegues reproducibles, métricas útiles y documentación recuperable.</p></div></article></div>
   </div>
+  <article class="experience reveal" id="experiencia"><div><p class="eyebrow">Experiencia profesional</p><h3>Soporte N1 y gestión de sistemas</h3><span>IaaS365</span></div><p>Trabajo con Entra ID y SharePoint, gestionando accesos, permisos e incidencias. Esa experiencia conecta mi día a día en soporte con la formación en Azure y la práctica de seguridad en el laboratorio.</p></article>
 </section>
 
 <section class="shell section" id="proyectos">
   <header class="section-head reveal"><p>02 / Proyectos seleccionados</p><div><h2>Ideas convertidas<em>en sistemas reales.</em></h2><span>Cada proyecto empezó resolviendo una necesidad. El valor apareció al afrontar todo lo que rodea a la primera versión.</span></div></header>
   <div class="projects">
-    <article class="project featured reveal"><div class="top"><small>01</small><mark class="orange">● En desarrollo · Web + mobile</mark></div><div><label>Gestión educativa</label><h3>ClassControl</h3><p>PWA y aplicación nativa en desarrollo para gestionar alumnos, calendario, clases y cobros. La versión móvil comparte Supabase y RLS, pero replantea navegación, sesión y deep links.</p><ul><li>React</li><li>Expo</li><li>Supabase</li><li>SecureStore</li></ul></div><div class="phones" aria-hidden="true"><i></i><i></i><span></span></div><footer><small>Aprendizaje clave</small><b>Migrar a móvil no es traducir componentes: cambia el ciclo de vida completo.</b></footer></article>
+    <article class="project featured reveal" id="top-performance">
+      <div class="top"><small>01</small><mark>● Web publicada</mark></div>
+      <div><p class="project-category">Desarrollo y despliegue para un negocio real</p><h3>Top &amp; Performance</h3><p>Web de entrenamiento y nutrición online. Me encargué del desarrollo, el despliegue en Cloudflare Pages, la configuración DNS y el SEO técnico.</p><ul><li>Cloudflare Pages</li><li>DNS</li><li>SEO técnico</li><li>Open Graph</li></ul><a class="project-link" href="https://topandperformance.com/" target="_blank" rel="noopener noreferrer">Visitar Top &amp; Performance ↗</a><figure class="project-shot"><img src="assets/top-performance.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="Portada de topandperformance.com: titular «Entrenamiento y nutrición online personalizados» con botones para empezar y pedir un estudio gratuito."><figcaption>Captura de la portada publicada · 12 nov 2026</figcaption></figure></div>
+      <div class="project-evidence"><h4>Del código a la publicación</h4><dl><div><dt>Despliegue</dt><dd>Cloudflare Pages y dominio propio.</dd></div><div><dt>SEO técnico</dt><dd>Canonical, robots.txt, sitemap y datos estructurados.</dd></div><div><dt>Imágenes y enlaces</dt><dd>AVIF y metadatos Open Graph para compartir la web.</dd></div></dl><a href="https://es.linkedin.com/posts/daniellebrerocarcela_entrenamiento-personal-y-nutrici%C3%B3n-online-activity-7502451813326127104-26ju" target="_blank" rel="noopener noreferrer">Leer cómo lo construí ↗</a></div>
+      <footer><small>Aprendizaje clave</small><b>Publicar una web también exige cuidar cómo se encuentra y cómo se comparte.</b></footer>
+    </article>
     <article class="project reveal"><div class="top"><small>02</small><mark>● Desplegado</mark></div><label>Backend seguro</label><h3>yt-dlp Web</h3><p>Interfaz multiusuario con Flask. Incorpora autenticación, protección CSRF, defensa contra SSRF y control de concurrencia.</p><ul><li>Python</li><li>Flask</li><li>SQLite</li><li>AppSec</li></ul><a class="project-link" href="https://yt-dlp.lebreserver.duckdns.org/" target="_blank" rel="noopener noreferrer">Abrir aplicación ↗</a><footer><small>Aprendizaje clave</small><b>Al convertir una CLI en servicio web, la seguridad pasa a formar parte del producto.</b></footer></article>
     <article class="project reveal"><div class="top"><small>03</small><mark class="blue">● Solo red local</mark></div><label>Colaboración privada</label><h3>Codeshare Local</h3><p>Editor colaborativo en tiempo real accesible únicamente desde la red local y no disponible en Internet. Sin analítica, CDN ni peticiones a terceros; sincroniza contenido, presencia y cursores con WebSockets.</p><div class="signal" aria-hidden="true"><b>A</b><i></i><i></i><i></i><b>B</b></div><ul><li>Node.js</li><li>WebSockets</li><li>JSON</li><li>Nginx</li></ul><footer><small>Aprendizaje clave</small><b>Privacidad también es decidir no exponer un servicio.</b></footer></article>
-    <article class="project wide reveal"><div><div class="top"><small>04</small><mark class="orange">● En desarrollo</mark></div><label>Producto y pagos</label><h3>Top &amp; Performance</h3><p>Landing en desarrollo para programas de entrenamiento y nutrición con pagos únicos o fraccionados. Stripe crea el checkout; los webhooks firmados mantienen la verdad del servidor.</p><ul><li>Python</li><li>Stripe</li><li>Docker</li><li>Webhooks</li></ul></div><div class="flow"><span><small>01</small>Checkout</span><i>→</i><span><small>02</small>Webhook</span><i>→</i><span><small>03</small>Activación</span></div><footer><small>Aprendizaje clave</small><b>Una pantalla de éxito no confirma un cobro. El evento firmado sí.</b></footer></article>
-    <article class="project wide dashboard reveal"><div><div class="top"><small>05</small><mark class="blue">● Solo red local</mark></div><label>Herramienta interna</label><h3>Lebre Services</h3><p>Dashboard propio de solo lectura, accesible únicamente desde la red local y no disponible en Internet. Permite consultar 19 servicios lógicos sin entregar a la aplicación control total sobre Docker.</p><ul><li>Python</li><li>Docker API</li><li>Socket Proxy</li></ul></div><div class="mock" aria-hidden="true"><header>● ● ●</header><section><i></i><i></i><i></i></section><p></p><p></p><p></p></div><footer><small>Aprendizaje clave</small><b>“Solo lo uso yo” no sustituye al mínimo privilegio.</b></footer></article>
+    <article class="project wide reveal" id="auditoria-bigshop"><div><div class="top"><small>04</small><mark class="blue">● TFM realizado · Top 10</mark></div><p class="project-category">Auditoría de seguridad en laboratorio</p><h3>BigShop · TFM</h3><p>Auditoría de caja gris de una tienda online de laboratorio con cuatro servicios web. Documenté 28 vulnerabilidades, tres de ellas críticas, en un informe de 97 páginas con puntuación CVSS para cada hallazgo.</p><ul><li>Seguridad web</li><li>Caja gris</li><li>CVSS</li><li>Documentación técnica</li></ul><a class="project-link" href="https://es.linkedin.com/posts/daniellebrerocarcela_ciberseguridad-bigschool-top10-activity-7524202646979772418-u8uV" target="_blank" rel="noopener noreferrer">Ver resultados y reconocimiento ↗</a></div><div class="project-evidence"><h4>Entre los diez mejores TFM</h4><p>Seleccionado en la primera edición del Máster en Ciberseguridad de BIG school.</p><dl><div><dt>28 hallazgos</dt><dd>Tres vulnerabilidades críticas.</dd></div><div><dt>97 páginas</dt><dd>Alcance, evidencias, impacto y valoración de los hallazgos.</dd></div><div><dt>Entorno controlado</dt><dd>Trabajo académico sobre BigShop, una tienda de laboratorio.</dd></div></dl></div><footer><small>Aprendizaje clave</small><b>Credenciales por defecto, JWT e inyección SQL: los fallos más graves pueden empezar por controles básicos.</b></footer></article>
+    <article class="project wide dashboard reveal"><div><div class="top"><small>05</small><mark class="blue">● Solo red local</mark></div><label>Herramienta interna</label><h3>Lebre Services</h3><p>Dashboard propio de solo lectura, accesible únicamente desde la red local y no disponible en Internet. Permite consultar el estado de los servicios sin entregar a la aplicación control total sobre Docker.</p><ul><li>Python</li><li>Docker API</li><li>Socket Proxy</li></ul></div><div class="mock" aria-hidden="true"><header>● ● ●</header><section><i></i><i></i><i></i></section><p></p><p></p><p></p></div><footer><small>Aprendizaje clave</small><b>“Solo lo uso yo” no sustituye al mínimo privilegio.</b></footer></article>
   </div>
 </section>
 
 <section class="lab section" id="laboratorio"><div class="shell">
-  <header class="section-head reveal"><p>03 / Laboratorio de sistemas</p><div><h2>Un servidor.<em>Muchas capas.</em></h2><span>Un entorno propio para practicar entrada, red, datos, seguridad, observabilidad y operación.</span></div></header>
+  <header class="section-head reveal"><p>03 / Laboratorio de sistemas</p><div><h2>Un servidor.<em>Muchas capas.</em></h2><span>Un entorno propio para practicar entrada, red, datos, seguridad, observabilidad y operación. Inventario comprobado el 12 de noviembre de 2026.</span></div></header>
+  <div class="lab-snapshot reveal"><div><strong>51</strong><span>contenedores en ejecución</span></div><p><b>18</b> son componentes de entornos locales de Supabase y <b>33</b> pertenecen al resto de servicios. Cuenta contenedores, no aplicaciones: una misma aplicación suele repartirse entre varios, junto a bases de datos, proxies y otros componentes auxiliares.</p><small>Instantánea del 12 nov 2026 · Comprobada con Docker · No se actualiza en tiempo real</small></div>
   <div class="architecture reveal">
     <div class="node">Usuarios<small>LAN · VPN · WEB</small></div><i class="line"></i><div class="node accent">Nginx<small>HTTPS · PROXY · WEBSOCKETS</small></div><i class="line"></i>
-    <div class="nodes"><div class="node">Aplicaciones<small>WEB · MOBILE · TOOLS</small></div><div class="node">Datos<small>SQL · SQLITE · VOLUMES</small></div><div class="node">Plataforma<small>DOCKER · NETWORKS</small></div></div>
-    <footer><span>Wazuh<small>Seguridad</small></span><span>Grafana<small>Observabilidad</small></span><span>WireGuard + Pi-hole<small>Acceso privado y DNS</small></span></footer>
+    <div class="nodes"><div class="node">Aplicaciones<small>WEB · AUTOMATIZACIÓN · TOOLS</small></div><div class="node">Datos<small>SQL · SQLITE · VOLUMES</small></div><div class="node">Plataforma<small>DOCKER · NETWORKS</small></div></div>
+    <footer><span>Uptime Kuma<small>Disponibilidad</small></span><span>Node Exporter<small>Métricas del host</small></span><span>WireGuard + Pi-hole<small>Acceso privado y DNS</small></span></footer>
   </div>
   <div class="lab-grid">
     <article class="reveal"><small>01</small><h3>Entrada controlada</h3><p>Nginx concentra HTTPS y mantiene los backends en localhost. Publicar también implica saber retirar.</p><b>Nginx · TLS · CA local</b></article>
     <article class="reveal"><small>02</small><h3>Red privada</h3><p>WireGuard ofrece acceso remoto sin convertir cada panel administrativo en un servicio público.</p><b>WireGuard · Pi-hole · DNS</b></article>
-    <article class="reveal"><small>03</small><h3>Visibilidad</h3><p>Wazuh aporta eventos. Grafana y los exporters convierten síntomas en hipótesis comprobables.</p><b>Wazuh · Grafana · cAdvisor</b></article>
-    <article class="reveal"><small>04</small><h3>Datos propios</h3><p>Nextcloud y MariaDB convierten persistencia, backup y recuperación en responsabilidades concretas.</p><b>Nextcloud · MariaDB · Volumes</b></article>
-    <article class="reveal"><small>05</small><h3>Integración</h3><p>Siete componentes multimedia muestran que una solución existe cuando todo el flujo puede explicarse.</p><b>Jellyfin · Sonarr · Radarr</b></article>
+    <article class="reveal"><small>03</small><h3>Visibilidad</h3><p>Uptime Kuma comprueba disponibilidad y Node Exporter expone métricas del host para observar el estado de los servicios.</p><b>Uptime Kuma · Node Exporter</b></article>
+    <article class="reveal"><small>04</small><h3>Datos propios</h3><p>Nextcloud, Immich y PostgreSQL convierten la persistencia, las copias de seguridad y la recuperación en responsabilidades concretas.</p><b>Nextcloud · Immich · PostgreSQL</b></article>
+    <article class="reveal"><small>05</small><h3>Integración</h3><p>Jellyfin, Sonarr, Radarr y sus servicios auxiliares conectan catálogo, automatización y reproducción dentro del laboratorio.</p><b>Jellyfin · Sonarr · Radarr</b></article>
     <article class="quote reveal"><blockquote>“Running” no significa “saludable”.</blockquote><p>Operar bien empieza cuando el estado deja de ser binario.</p></article>
   </div>
 </div></section>
@@ -73,16 +87,17 @@
   <header class="section-head reveal"><p>04 / Aprendizaje continuo</p><div><h2>Aprender, aplicar,<em>volver a medir.</em></h2><span>La formación se queda cuando encuentra un proyecto real sobre el que hacer preguntas.</span></div></header>
   <div class="timeline">
     <article class="reveal"><b>01</b><aside>Formación aplicada<small>NEXT DIGITAL × ETSII Sevilla</small></aside><div><h3>Diseñar software mantenible</h3><p>TDD, patrones de diseño, CI/CD y arquitectura hexagonal. De Red-Green-Refactor a pipelines con GitHub Actions y Docker.</p><ul><li>TDD</li><li>Design Patterns</li><li>CI/CD</li><li>Hexagonal</li></ul></div></article>
-    <article class="reveal"><b>02</b><aside>Práctica defensiva<small>BIG school · 3 días</small></aside><div><h3>Entender el ataque para construir mejor</h3><p>Hacking ético y práctica posterior en entornos controlados: metodología web, XSS, autenticación y análisis de impacto.</p><ul><li>Web Security</li><li>DockerLabs</li><li>XSS</li><li>2FA</li></ul></div></article>
-    <article class="reveal"><b>03</b><aside>Cloud<small>En preparación</small></aside><div><h3>Microsoft Azure Fundamentals</h3><p>Preparación activa del examen AZ-900 para reforzar fundamentos de nube, servicios, seguridad, gobierno y costes.</p><div class="progress"><span>Examen reservado</span><span>No certificado todavía</span></div></div></article>
+    <article class="reveal"><b>02</b><aside>Ciberseguridad aplicada<small>BIG school · TFM</small></aside><div><h3>Auditar y comunicar el impacto</h3><p>Auditoría de caja gris de BigShop en laboratorio: 28 vulnerabilidades documentadas y un informe de 97 páginas. Trabajo seleccionado entre los diez mejores TFM de la primera edición.</p><ul><li>Seguridad web</li><li>CVSS</li><li>Análisis de impacto</li><li>Informe técnico</li></ul></div></article>
+    <article class="reveal"><b>03</b><aside>Cloud<small>AZ-900 aprobado</small></aside><div><h3>Microsoft Azure Fundamentals</h3><p>Fundamentos de nube, seguridad, gobierno y costes. Una base para conectar el trabajo con Entra ID y SharePoint con la administración de un entorno cloud.</p></div></article>
     <article class="reveal"><b>04</b><aside>Base académica<small>Universidad de Sevilla</small></aside><div><h3>Ingeniería Informática</h3><p>Contexto académico para conectar fundamentos, prácticas y TFG con problemas reales de desarrollo, arquitectura e infraestructura.</p></div></article>
   </div>
 </section>
 
 <section class="certifications section" id="certificaciones"><div class="shell">
   <header class="section-head reveal"><p>05 / Licencias y certificaciones</p><div><h2>Formación que se convierte<em>en capacidad práctica.</em></h2><span>Una base en redes, seguridad, datos e inteligencia artificial que aplico al construir y operar proyectos reales.</span></div></header>
-  <article class="current-study reveal"><div><p>Formación en curso</p><h3>Máster de Ciberseguridad y Hacking Ético</h3><span>BIG school</span></div><strong>Actualmente cursando</strong></article>
+  <article class="current-study reveal"><div><p>Formación aplicada</p><h3>Máster en Ciberseguridad</h3><span>BIG school · Auditoría de seguridad web</span></div><strong>TFM realizado · Top 10</strong></article>
   <div class="credential-grid">
+    <article class="credential microsoft reveal"><header><span>Microsoft</span><span>AZ-900 aprobado</span></header><h3>Microsoft Certified: Azure Fundamentals</h3><p>Cloud · Seguridad · Gobierno · Costes</p><a class="credential-link" href="https://es.linkedin.com/posts/daniellebrerocarcela_azure-microsoftcertified-az900-activity-7517664563023151104-h9QU" target="_blank" rel="noopener noreferrer">Ver publicación del logro ↗</a></article>
     <article class="credential microsoft reveal"><header><span>Microsoft</span><time datetime="2026-06">JUN 2026</time></header><h3>AI Skills Fest 2026</h3><p>Inteligencia artificial</p></article>
     <article class="credential cisco reveal"><header><span>Cisco</span><time datetime="2026-02">FEB 2026</time></header><h3>Endpoint Security</h3><p>Seguridad de redes · Seguridad física</p><small>ID 70203c7f-24b8-43be-9bc9-eeec36122793</small></article>
     <article class="credential cisco reveal"><header><span>Cisco</span><time datetime="2026-02">FEB 2026</time></header><h3>Networking Devices and Initial Configuration</h3><p>Diseño de redes · Arquitectura de redes</p><small>ID 392385c6-aec0-4663-afe7-88d2ab78bc2b</small></article>
@@ -96,7 +111,7 @@
   </div>
 </div></section>
 
-<section class="shell stack section"><p class="index reveal">06 / Caja de herramientas</p><h2 class="reveal">Tecnología con contexto.</h2><div class="cloud reveal"><b>Docker</b><span>Python</span><em>React</em><span>Nginx</span><span>Supabase</span><b>JavaScript</b><span>React Native</span><span>SQLite</span><em>GitHub Actions</em><span>Linux</span><span>WebSockets</span><b>AppSec</b><span>Grafana</span><span>Wazuh</span><span>Stripe</span><span>WireGuard</span></div></section>
+<section class="shell stack section"><p class="index reveal">06 / Caja de herramientas</p><h2 class="reveal">Tecnología con contexto.</h2><div class="cloud reveal"><b>Docker</b><span>Python</span><em>Cloudflare Pages</em><span>Nginx</span><span>Supabase</span><b>JavaScript</b><span>Azure</span><span>Entra ID</span><span>SharePoint</span><span>SQLite</span><em>GitHub Actions</em><span>Linux</span><span>WebSockets</span><b>AppSec</b><span>Uptime Kuma</span><span>PostgreSQL</span><span>SEO técnico</span><span>WireGuard</span></div></section>
 
 <section class="contact" id="contacto"><div class="shell">
   <div class="reveal"><p>07 / Contacto</p><h2>¿Construimos<em>algo que importe?</em></h2><span>Si quieres hablar de desarrollo, arquitectura, DevOps, seguridad o de alguno de estos proyectos, aquí me encontrarás.</span></div>
